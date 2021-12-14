@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="@string/hiker_watch"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:id="@+id/hikerWatchTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        />
+    <TextView
+        android:layout_below="@+id/hikerWatchTextViewId"
+        android:id="@+id/latitudeTextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/latitude"
+        android:textColor="@color/white"
+        android:textSize="29sp" />
+
+    <TextView
+        android:layout_below="@+id/latitudeTextId"
+        android:id="@+id/longitudeTextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="29sp"
+        android:text="@string/longitude" />
+
+    <TextView
+        android:layout_below="@+id/longitudeTextId"
+        android:id="@+id/altitudeTextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="29sp"
+        android:text="@string/altitude" />
+
+    <TextView
+        android:layout_below="@+id/altitudeTextId"
+        android:id="@+id/accuracyTextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="29sp"
+        android:text="@string/accuracy" />
+
+    <TextView
+        android:layout_below="@+id/accuracyTextId"
+        android:id="@+id/addressTextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="29sp"
+        android:text="@string/address" />
+
+</RelativeLayout>
